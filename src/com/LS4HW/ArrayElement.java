@@ -1,6 +1,8 @@
 package com.LS4HW;
 
 public class ArrayElement {
+
+    //local code review (vtegza): try with final fields @ 11.05.15
     private String elementName;
     private int elementValue;
 

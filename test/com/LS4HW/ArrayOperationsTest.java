@@ -78,7 +78,7 @@ public class ArrayOperationsTest {
     }
 
     @Test
-    public void testInnerUnionWithMyException() throws MyException {
+    public void testInnerUnionWithMyException() {
         try {
         // initialize variable inputs
         ArrayElement[] objectLeftArray = Main.generateObjectArray(null);

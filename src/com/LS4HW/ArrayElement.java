@@ -3,21 +3,26 @@ package com.LS4HW;
 public class ArrayElement {
 
     //local code review (vtegza): try with final fields @ 11.05.15
-    private String elementName;
-    private int elementValue;
+    private final String elementName;
+    private final int elementValue;
+
+    public ArrayElement(String elementName, int elementValue) {
+        this.elementName = elementName;
+        this.elementValue = elementValue;
+    }
 
     public String getElementName() {
         return elementName;
     }
-    public void setElementName(String elementName) {
-        this.elementName = elementName;
-    }
+//    public void setElementName(String elementName) {
+//        this.elementName = elementName;
+//    }
     public int getElementValue() {
         return elementValue;
     }
-    public void setElementValue(int elementValue) {
-        this.elementValue = elementValue;
-    }
+//    public void setElementValue(int elementValue) {
+//        this.elementValue = elementValue;
+//    }
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
